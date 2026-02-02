@@ -26,7 +26,7 @@ export default function FilterBar({
   onKeywordProductsChange,
 }: FilterBarProps) {
   return (
-    <div className="sticky top-0 z-40 mb-8 animate-slide-up backdrop-blur-md">
+    <div className="md:sticky md:top-0 z-40 mb-8 animate-slide-up backdrop-blur-md">
       <div className="glass-effect rounded-2xl p-6 shadow-xl border-2 border-[--text-secondary]/10">
         <div className="flex flex-col md:flex-row gap-4 items-stretch md:items-center justify-between">
           {/* Category Filter */}
